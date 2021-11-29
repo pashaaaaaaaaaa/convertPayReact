@@ -1,0 +1,67 @@
+.container-main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 65px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+p{
+    margin-bottom: 2px;
+}
+.container-main button{
+    width: 52px;
+    height: 30px;
+}
+.arrow{
+    position: relative;
+    box-sizing: border-box;
+
+}
+.arrow img{
+    /* position: absolute; */
+    margin-left: 70px;
+}
+.btn{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+select{
+    padding: 5.2px;
+}
+.btn button{
+    margin-right: 5px;
+    border: 0.1px solid grey;
+    background: none;
+}
+.answer{
+    width: 320px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0.5px solid grey;
+    padding: 20px;
+}
+.answer input{
+    margin: auto;
+    width: auto;
+    height: 30px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+.money-change{
+    margin: auto;
+    border: 1px solid red;
+    width: 170px;
+    height: 20px;
+
+}
